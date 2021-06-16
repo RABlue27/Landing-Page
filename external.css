@@ -25,28 +25,25 @@ body {
 }
 
 button {
-    background-color: goldenrod;
-    border: wheat;
+    background-color: wheat;
     color:black;
     width: 12ex;
-    height: 40px;
+    height: 75%;
     text-align: center;
     font-size: 24px;
-
+    margin: 0px 10px 0px 10px;
+    overflow: hidden;
 }
 
 #banner #buttons {
     margin: 0 auto;
     position: absolute;
-    top: 35px;
+    top: 25%;  
+    bottom: 5%; 
+    width: 100%;
     left: calc(50% - (4 * 12ex) + (3 * 3px)); /* yooo */
     z-index: 2;
-
+    overflow: auto;
 }
 
 
-
-@font-face {
-    font-family: ColaFont;
-    src: url(https://www.dafont.com/loki-cola.font);
-}
