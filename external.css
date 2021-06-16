@@ -1,0 +1,52 @@
+body {
+    background-color:  black;
+}
+
+#banner {
+    position: absolute;
+    left: 0%;
+    top: -2%;
+    height: 20vh;
+    width:100vw;
+    overflow:hidden;
+
+
+}
+
+#banner .image {
+    position: relative;
+    content: url(https://thepaintpeople.com/wp-content/uploads/2015/09/prepare-bare-wood-staining.jpg);
+    width: 100vw;
+    height: 20vh;
+    min-height: 5em;
+    /* top: -2%;
+    left: -2%; */
+    z-index: 1;
+}
+
+button {
+    background-color: goldenrod;
+    border: wheat;
+    color:black;
+    width: 12ex;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+#banner #buttons {
+    margin: 0 auto;
+    position: absolute;
+    top: 35px;
+    left: calc(50% - (4 * 12ex) + (3 * 3px)); /* yooo */
+    z-index: 2;
+
+}
+
+
+
+@font-face {
+    font-family: ColaFont;
+    src: url(https://www.dafont.com/loki-cola.font);
+}
