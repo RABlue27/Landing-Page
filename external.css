@@ -41,7 +41,7 @@ button {
     top: 25%;  
     bottom: 5%; 
     width: 100%;
-    left: calc(50% - (4 * 12ex) + (3 * 3px)); /* yooo */
+    left: calc(50% - (4 * 12ex) + (3 * 3px)); /* yooo! */
     z-index: 2;
     overflow: auto;
 }
