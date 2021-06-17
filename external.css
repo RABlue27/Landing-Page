@@ -45,5 +45,35 @@ button {
     z-index: 2;
     overflow: auto;
 }
+.container{
+    margin: 18vh auto;
+    height: 100vw;
+    background-color: cyan;
+    display:grid;
+    grid-template-columns: 50vw 50vw;
+    grid-row: 400px 400px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 
+}
+
+.box{
+    background-color:#333;
+    padding:20px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:monospace;
+    text-justify: center;
+
+}
+
+img {
+    width: 50vw;
+    height: 106%;
+    margin: 0;
+    padding: 0;
+}
 
